@@ -4,5 +4,7 @@
 
 将restart-edgecore.sh复制到
 /etc/kubeedge/
+
 systemctl enable restart-edgecore
+
 systemctl start restart-edgecore
