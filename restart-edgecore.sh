@@ -8,6 +8,6 @@ if [ $(docker ps | wc -l) le 1 ]; then
     /usr/bin/systemctl restart edgecore
     echo "restarted edgecore."
 fi
-sleep 180
+sleep 300
  
 done
